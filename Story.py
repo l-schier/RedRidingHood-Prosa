@@ -76,7 +76,7 @@ class RedRidingHood():
         elif any(isinstance(item, Wolf) for item in char_list)  and any(isinstance(item, FairyGodMother) for item in all_characters):
             for c in all_characters:
                 if isinstance(c, FairyGodMother):
-                    self.reactedText = self.name + " gives th Wolf flowers. \nThe Wolf starts to cry from happiness"
+                    self.reactedText = self.name + " gives the Wolf flowers. \nThe Wolf starts to cry from happiness"
                     char_list.append(all_characters.pop(all_characters.index(c)))
 
         elif not any(isinstance(item, Wolf) for item in char_list) and num_reactions >= 3:

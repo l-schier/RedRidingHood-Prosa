@@ -4,11 +4,10 @@ This is a repository for the testrun of Prosas Code contest. This projects tells
 The code requires python 3.9 to run correctly.
 
 This is done by using one of the following commands:
-
-
-```python Story.py```
-
+```
+python Story.py
+```
 or
-
-
-```python3 Story.py```
+```
+python3 Story.py
+```
